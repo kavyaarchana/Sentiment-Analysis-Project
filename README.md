@@ -4,17 +4,17 @@ A Machine Learning project that predicts whether a movie review is **Positive** 
 
 ## Features
 
-* Text preprocessing and cleaning
-* TF-IDF vectorization
-* Logistic Regression model
-* Real-time sentiment prediction using Streamlit
+- Text preprocessing and cleaning
+- TF-IDF vectorization
+- Logistic Regression model
+- Real-time sentiment prediction using Streamlit
 
 ## Technologies Used
 
-* Python
-* Pandas
-* Scikit-learn
-* Streamlit
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
 
 ## Dataset
 
@@ -49,6 +49,18 @@ streamlit run app.py
 2. Clean and preprocess text
 3. Convert text to numerical features using TF-IDF
 4. Train a Logistic Regression model
-5. Predict sentiment for new movie reviews
-6. Display predictions using a Streamlit web application
+5. Train a Logistic Regression classifier
+6. Predict sentiment for new movie reviews using the Streamlit web application
+
+---
+
+## Application Screenshots
+
+### Positive Prediction
+
+![Positive Prediction](imagepositive_prediction.png)
+
+### Negative Prediction
+
+![Negative Prediction](imagenegative_prediction.png)
 
